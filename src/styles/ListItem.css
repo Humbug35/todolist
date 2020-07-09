@@ -1,0 +1,35 @@
+.list-item-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3rem 0;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+
+.todo-tasks-icons, .done-tasks-icons {
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.done-tasks-icons {
+    justify-content: flex-end;
+}
+
+.done-tasks-icons > p {
+    margin: 0;
+}
+
+.fa-check {
+    color: green;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.fa-times {
+    color: red;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
